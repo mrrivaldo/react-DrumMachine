@@ -1,0 +1,77 @@
+:root {
+  background-color: #c0a080;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Tahoma;
+}
+
+.drum-display {
+  display: block;
+  border: solid;
+  border-radius: 10px;
+  border-color: #efefef;
+  background-color: #7882a4;
+  width: 800px;
+  height: 370px;
+  position: relative;
+}
+
+.pad {
+  margin: 35px;
+  width: 350px;
+  height: 300px;
+
+  display: inline-block;
+}
+
+.drum-pad {
+  background-color: #d1d1d1;
+  position: relative;
+  float: left;
+  width: 100px;
+  height: 80px;
+  margin-right: 10px;
+  border-radius: 5px;
+  padding: 30px 10px 10px 40px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin-top: 10px;
+  box-shadow: black 3px 3px 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+}
+
+.inner-logo {
+  font-weight: bold;
+  font-style: italic;
+  display: inline-block;
+  font-size: 25px;
+}
+
+.display-name {
+  width: 350px;
+  height: 260px;
+  display: inline-block;
+  margin: 40px 20px 10px 10px;
+  vertical-align: top;
+}
+
+#display {
+  font-weight: bold;
+  width: 200px;
+  background-color: #d1d1d1;
+  border: solid;
+  border-color: #efefef;
+  border-radius: 10px;
+  margin: 90px auto;
+  padding: 20px;
+}
